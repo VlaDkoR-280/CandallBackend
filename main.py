@@ -4,4 +4,5 @@ if __name__ == '__main__':
     
     groups_id = asyncio.run(get_groups())
     
-    print(groups_id)
+    for i, id in enumerate(groups_id, 1):
+        print(f"{i}. {id}")
