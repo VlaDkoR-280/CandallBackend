@@ -2,3 +2,6 @@ dotenv
 sqlalchemy 
 asyncpg
 greenlet
+fastapi
+uvicorn
+init_data_py
