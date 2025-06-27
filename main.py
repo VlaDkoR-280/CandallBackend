@@ -42,5 +42,6 @@ if __name__ == '__main__':
         app,
         host="0.0.0.0",
         port=8000,
-        # reload=True # Debug
+        # ssl_keyfile="path_to_sslkey",
+        # ssl_certfile="path_to_sslcert"
     )
